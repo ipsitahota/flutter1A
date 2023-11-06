@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog1/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,19 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int days = 30;
+    String name = "codepur";
     return MaterialApp(
-        home: Material(
-      child: Center(
-        child: Container(
-          child: Center(
-            child: Text(
-              "Welcome puchubaba",
-              style: TextStyle(
-                  fontSize: 50, color: const Color.fromARGB(255, 1, 56, 101)),
-            ),
-          ),
-        ),
-      ),
-    ));
+      home: HomePage(),
+    );
   }
 }
