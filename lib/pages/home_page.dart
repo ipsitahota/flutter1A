@@ -15,8 +15,6 @@ class HomePage extends StatelessWidget {
           child: Center(
             child: Text(
               "Welcome to $days days of flutter in " +name,
-              style: TextStyle(
-                  fontSize: 50, color: const Color.fromARGB(255, 1, 56, 101)),
             ),
           ),
         ),
